@@ -1,0 +1,105 @@
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(back.png);
+}
+img{
+    max-width: calc(100% - 70px);
+}
+h2{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-family: Caviar Dreams;
+    font-weight: 700;
+    color: #030000;
+}
+
+h3{
+    text-align: center;
+    margin: 50;
+    color: #FFF;
+    font-size: 30px;
+    font-family: Caviar Dreams;
+    font-weight: 700;
+}
+
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+.enter{
+    font-family: Caviar Dreams;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 3px;
+}
+.enter:focus {
+    outline: none;
+    border-bottom: 1px solid #500808;
+}
+
+button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+button:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+button:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+button > h2{
+    font-size: 13px;
+}
+
+.notice{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 60px;
+    gap: 15px;
+
+    background: #99ffbb;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: Caviar Dreams;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.wrapped{
+    visibility: hidden;
+}
+#time{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Caviar Dreams;
+}
